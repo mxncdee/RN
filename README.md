@@ -30,9 +30,5 @@ url:
 urlToImage:
 Content:
 
-## Sucess response
-(https://github.com/satishtamada/NewsApp-React-Native/blob/master/screensshots/ic_banner.jpg)
 
-## Error response
-(https://github.com/satishtamada/NewsApp-React-Native/blob/master/screensshots/ic_empty_response.jpg)
-
+####################
