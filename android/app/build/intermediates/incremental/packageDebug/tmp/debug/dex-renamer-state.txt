@@ -1,0 +1,4 @@
+#Wed Nov 25 20:56:58 CET 2020
+base.0=/Users/Max/Desktop/RCT/NewsApp-React-Native/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
