@@ -3,21 +3,36 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.3",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/toolbar-android": "^0.1.0-rc.2",
+    "@react-native-community/viewpager": "^4.2.1",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
     "react-native-cardview": "^2.0.2",
-    "react-navigation": "^2.2.3",
+    "react-navigation": "^4.4.3",
+    "react-native-best-viewpager": "^1.0.4",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.15.0",
+    "react-native-swiper": "^1.6.0-rc.3",
+    "react-native-viewpager": "^0.2.13",
+    "react-navigation-stack": "^2.10.2",
     "rn-viewpager": "^1.2.9"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.48.1",
-    "react-test-renderer": "16.6.0-alpha.8af6728"
+    "metro-react-native-babel-preset": "0.64.0",
+    "react-test-renderer": "16.13.1"
   },
   "jest": {
     "preset": "react-native"
