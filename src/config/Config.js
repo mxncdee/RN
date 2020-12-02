@@ -54,7 +54,7 @@ export const NEWS_TECHNOLOGY =
 
 
 
-
+// test vari
 //https://newsapi.org/v2/top-headlines?country=us&apiKey=
 
 //https://newsapi.org/v2/everything?q=cast&apiKey=API_KEY

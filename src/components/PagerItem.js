@@ -19,6 +19,7 @@ export default class PagerItem extends Component {
     };
   }
 
+  // verificare meglio non ...!!!
   // async componentWillMount() {
   //   fetch(appConst.NEWS_TEST_URL)
   //     .then(response => response.json())

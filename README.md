@@ -18,7 +18,7 @@ NewsApp --> React Native
 
 ## Source newsApi
 source url NewsApi : https://newsapi.org
-Limite ulitizzo 100 richieste in 24h, oppure, 50 in 12h per utenza Free. Business/Enterprice, price 449$/849$ per month, biled monthly
+Limit 100 in 24h, otherwise, 50 in 12h Free. Business/Enterprice, price 449$/849$ per month, biled monthly
 
 ## Json Api:
 id:
