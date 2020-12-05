@@ -94,7 +94,6 @@ export default class NewsFeed extends Component {
                 <TouchableHighlight
                   onPress={() => this.onListItemClicked(item)}
                 >
-                        // stop stop
                   {/* <View style={styles.feedItem}>
                     <View style={{ flexDirection: "column", flex: 0.7 }}>
                       <Text style={styles.authorName}>{item.author}</Text>

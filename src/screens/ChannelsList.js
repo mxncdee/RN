@@ -76,11 +76,11 @@ export default class ChannelsList extends Component {
         <View style={styles.container}>
           {/* id: "abc-news",
 name: "... News",
-description: ".....com.",
-url: "https://ansa.it",
-category: "generale",
-language: "it",
-country: "IT" */}
+description: "Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at .....com.",
+url: "https://abcnews.go.com",
+category: "general",
+language: "en",
+country: "us" */}
           <FlatList
             style={{ flex: 1, width: screen_width }}
             data={this.state.channelsData}

@@ -19,7 +19,6 @@ export default class PagerItem extends Component {
     };
   }
 
-  // verificare meglio non ...!!!
   // async componentWillMount() {
   //   fetch(appConst.NEWS_TEST_URL)
   //     .then(response => response.json())
@@ -44,7 +43,10 @@ export default class PagerItem extends Component {
 
   render() {
     var imageurl =
-      "https://raw.githubusercontent.com/satishtamada/NewsApp-React-Native/master/screensshots/ic_news_placeholder.jpg";
+      "../images/ic_news_placeholder.png";
+      //"https://raw.githubusercontent.com/mxcdee/NewsApp-React-Native/master/screensshots/ic_news_placeholder.jpg";
+
+
     if (this.props.url != null) {
       imageurl = this.props.url;
     }
