@@ -35,4 +35,4 @@ const AppStackNavigator = createStackNavigator({
   }
 });
 
-AppRegistry.registerComponent("SampleExamples", () => App);
+AppRegistry.registerComponent("NewsApp", () => App);
