@@ -30,7 +30,7 @@ export default class FeedView extends Component {
     );
   }
 
-  //get the bookmarks list from the storage
+  // ottengo l'elenco dei segnalibri dalla mem
   async getBookmarksList() {
     try {
       const bookmarksString = await AsyncStorage.getItem("@MyStore:bookmarks");
@@ -41,7 +41,7 @@ export default class FeedView extends Component {
         });
       }
     } catch (error) {
-      // Error retrieving data
+      // Error recupero dati
       alert(error);
     }
   }

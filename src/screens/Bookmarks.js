@@ -38,7 +38,7 @@ export default class Bookmarks extends Component {
     try {
       const bookmarksString = await AsyncStorage.getItem("@MyStore:bookmarks");
       if (bookmarksString !== null) {
-        // We have data!!
+        // dati!!
         this.setState({
           bookMarksStatus: 1,
           bookmarksList: JSON.parse(bookmarksString)
@@ -49,7 +49,7 @@ export default class Bookmarks extends Component {
         });
       }
     } catch (error) {
-      // We have data!!
+      // dati!!
       this.setState({
         bookMarksStatus: 2
       });
@@ -92,7 +92,7 @@ export default class Bookmarks extends Component {
       const bookmarksString = JSON.stringify(this.state.bookmarksList);
       await AsyncStorage.setItem("@MyStore:bookmarks", bookmarksString);
     } catch (error) {
-      alert("unable to remove bookmark");
+      alert("Impossibile rimuove un bookmark");
     }
   }
 

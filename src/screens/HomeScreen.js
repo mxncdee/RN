@@ -261,7 +261,7 @@ export default class HomeScreen extends Component {
     } else {
       newsFeed = (
         <View>
-          <Text>It's seems you don't have internet connection..!</Text>
+          <Text>Sembra che tu non abbia una connessione a Internet..!</Text>
         </View>
       );
     }
@@ -273,7 +273,7 @@ export default class HomeScreen extends Component {
             style={{ flex: 1 }}
             indicator={this._renderDotIndicator()}
           >
-            {/* business entertainment general health science sports technology */}
+            {/* business, entertainment, general ,health, science, sports, technology */}
             <View>
               <PagerItem
                 navigation={navigation}
