@@ -46,7 +46,7 @@ export default class SearchNews extends Component {
   //https://newsapi.org/v2/everything?q=cast&apiKey=API_KEY
   onSearchClicked() {
     if (this.state.value.length === 0) {
-      alert("Enter your search text");
+      alert("Inserisci il testo da cercare");
     } else {
       Keyboard.dismiss();
       this.setState({
@@ -162,7 +162,7 @@ export default class SearchNews extends Component {
             flexDirection: "column"
           }}
         >
-          <Text>Type somthing...</Text>
+          <Text>Scrivi qualcosa...</Text>
         </View>
       );
     }
@@ -173,7 +173,7 @@ export default class SearchNews extends Component {
           <TextInput
             onChangeText={event => this.setState({ value: event })}
             style={styles.inputText}
-            placeholder="Enter your text"
+            placeholder="Inserisci il testo da cercare"
           />
           <TouchableOpacity
             onSubmitEditing={Keyboard.dismiss}

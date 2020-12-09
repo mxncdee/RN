@@ -10,10 +10,10 @@ export default class EmptySearchResultsView extends Component {
           style={{ width: 100, height: 100 }}
         />
         <Text style={{ fontWeight: "bold", padding: 10, color: "#686868" }}>
-          EMPTY RESULTS FOUND..!
+          Vuoto..!
         </Text>
         <Text style={{ color: "#848080" }}>
-          Sorry we could't find your search results .
+          Impossibile recuperare l'elenco dei canali ..! Riprova.
         </Text>
       </View>
     );

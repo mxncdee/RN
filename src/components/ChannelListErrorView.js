@@ -10,10 +10,10 @@ export default class ChannelListErrorView extends Component {
           style={{ width: 100, height: 100 }}
         />
         <Text style={{ fontWeight: "bold", padding: 10, color: "#686868" }}>
-          NO RESULTS FOUND..!
+         Nessun risultato trovato..!
         </Text>
         <Text style={{ color: "#848080" }}>
-          Unable to fetch the channels list..! Try again.
+          Impossibile recuperare l'elenco dei canali ..! Riprova.
         </Text>
       </View>
     );

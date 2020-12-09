@@ -218,7 +218,6 @@ export default class HomeScreen extends Component {
                 <TouchableOpacity
                   onPress={() => this.onNewsFeedBannerClicked(item)}
                 >
-                    // controllare
                   {/* <View style={styles.feedItem}>
                     <View style={{ flexDirection: "column", flex: 0.7 }}>
                       <Text style={styles.authorName}>{item.author}</Text>
@@ -262,7 +261,7 @@ export default class HomeScreen extends Component {
     } else {
       newsFeed = (
         <View>
-          <Text>It's seems you don't have internet connection..!</Text>
+          <Text>Sembra che tu non abbia una connessione a Internet..!</Text>
         </View>
       );
     }
@@ -274,7 +273,7 @@ export default class HomeScreen extends Component {
             style={{ flex: 1 }}
             indicator={this._renderDotIndicator()}
           >
-            {/* business intrattenimentp generale salute scienza sport tecnologia */}
+            {/* business, entertainment, general ,health, science, sports, technology */}
             <View>
               <PagerItem
                 navigation={navigation}

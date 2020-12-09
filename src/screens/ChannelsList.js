@@ -74,13 +74,13 @@ export default class ChannelsList extends Component {
     if (this.state.isChannelListAvaliable == 2) {
       channelsList = (
         <View style={styles.container}>
-          {/* id: "abc-news",
+          {/* id: "xxx-news",
 name: "... News",
-description: ".....com.",
-url: "https://ansa.it",
-category: "generale",
+description: " .... in Italia, i dati e le news dal mondo di oggi, sabato..... ",
+url: "https://xxx.go.com",
+category: "general",
 language: "it",
-country: "IT" */}
+country: "it" */}
           <FlatList
             style={{ flex: 1, width: screen_width }}
             data={this.state.channelsData}

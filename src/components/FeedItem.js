@@ -5,7 +5,10 @@ export default class FeedItem extends Component {
 
     render() {
         var imageurl =
-        "../images/ic_news_placeholder.png"
+            "../images/ic_news_placeholder.png";
+            // "https://images.app.goo.gl/rZrDe5ev87u7SGMj7";  examp image internet ... tests!
+
+
         if (this.props.url != null) {
             imageurl = this.props.url;
         }
