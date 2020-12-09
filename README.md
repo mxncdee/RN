@@ -11,9 +11,9 @@ NewsApp --> React Native
 * Custom components
  
 ## Functionality 
-* Displays top news headlines covering all categories
-* Accessible channels
-* Bookmarks and search functionality
+* Displays top news
+* Channels
+* Bookmarks and search
 * Feedview
 
 ## Source newsApi
