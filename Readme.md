@@ -17,8 +17,8 @@ NewsApp --> React Native
 * Feedview
 
 ## Source newsApi
-Source url NewsApi : https://newsapi.org
-Usage limit 100 requests in 24h or 50 in 12h, user Free. Business/Enterprice, price 449$/849$ per month, biled monthly
+source url NewsApi : https://newsapi.org 
+Limit 100 in 24h, otherwise, 50 in 12h Free. Business/Enterprice, price 449$/849$ per month, biled monthly
 
 ## Json Api:
 id:
@@ -31,3 +31,4 @@ urlToImage:
 Content:
 
 
+####################
