@@ -65,7 +65,7 @@ export class SearchScreen extends Component {
     }     	
     return (
       <ScrollView>
-        <Text style={{textAlign:'left', fontWeight:'bold'}}>Found {this.state.searchCount} search results</Text>
+        <Text style={{textAlign:'left', fontWeight:'bold'}}>Trovati {this.state.searchCount} risultati:</Text>
       	{NewsCards}
       </ScrollView>
     );
